@@ -1,0 +1,14 @@
+# See: https://taskfile.dev/api/
+
+version: "3"
+
+dotenv:
+  - .env
+
+env:
+  #MIGRATIONS_DIR: migrations
+  #DB_PATH: ./VK_Bot_Wall_Grabber.db
+  #GOOSE_DB_TYPE: sqlite3
+
+tasks:
+  #TODO тут будут команды для работы с сервисом
